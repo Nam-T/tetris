@@ -1,10 +1,13 @@
 import './App.css';
-import HomePage from './pages/homepage'
+import Tetris from './components/Tetris'
+import React from 'react'
 
-function App() {
-  return (
-    <HomePage />
-  );
+const App = () => {
+  return(
+    <div className="App">
+      <Tetris />
+    </div>
+  )
 }
 
 export default App;
