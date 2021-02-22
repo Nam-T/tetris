@@ -4,7 +4,7 @@ import TETRIMINOS from '../tetrominos'
 
 const Cell = ({ type }) => {
   return(
-    <StyledCell type={'L'} color={TETRIMINOS['O'].color} />
+    <StyledCell type={type} color={TETRIMINOS[type].color} />
   )
 }
 

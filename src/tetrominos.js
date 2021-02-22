@@ -21,7 +21,7 @@ export const Tetrominos = {
        color: '223, 173, 36'},
   O: { shape: [
                 ['O', 'O', 'O'],
-                ['O', 0, 'O'],
+                ['O', 'O', 'O'],
                 ['O', 'O', 'O']
               ],
        color: '223, 217, 36'},
@@ -49,7 +49,7 @@ export const randomTetromino = () => {
   const tetrominos = 'IJLOSTZ'
   const randTetromino = tetrominos[Math.floor(Math.random() * tetrominos.length)]
 
-  return tetrominos[randTetromino]
+  return Tetrominos[randTetromino]
 }
 
 export default Tetrominos
